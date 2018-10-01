@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="au_vision" type="tracker_node" name="TestTracker" output="screen">
+        <param name="tracker" value="test_tracker"/>
+        <remap from="TestTracker/camera" to="/usb_cam/image_raw"/>
+    </node>
+</launch>

@@ -1,0 +1,7 @@
+<library path="lib/libtracker_nodelet">
+    <class name="au_vision/TrackerNodelet" type="au_vision::TrackerNodelet" base_class_type="nodelet::Nodelet">
+        <description>
+            Tracker nodelet
+        </description>
+    </class>
+</library>

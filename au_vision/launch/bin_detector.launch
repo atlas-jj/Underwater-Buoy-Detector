@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="au_vision" type="detector_server" name="BinDetector" output="screen">
+        <param name="detector" value="bin_detector"/>
+    </node>
+</launch>

@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="nodelet" type="nodelet" name="standalone_nodelet"  args="manager" />
+
+    <node pkg="nodelet" type="nodelet" name="TestDetector" args="load au_vision/DetectorNodelet standalone_nodelet" output="screen">
+        <param name="detector" value="test_detector"/>
+        <!--remap from="TestTracker/camera" to="/usb_cam/image_raw"/-->
+    </node>
+
+</launch>

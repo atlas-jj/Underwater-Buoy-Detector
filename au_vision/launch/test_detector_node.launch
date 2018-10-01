@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="au_vision" type="detector_node" name="TestDetector" output="screen">
+        <param name="detector" value="test_detector"/>
+        <!--remap from="TestTracker/camera" to="/usb_cam/image_raw"/-->
+    </node>
+</launch>

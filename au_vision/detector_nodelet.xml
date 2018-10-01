@@ -1,0 +1,7 @@
+<library path="lib/libdetector_nodelet">
+    <class name="au_vision/DetectorNodelet" type="au_vision::DetectorNodelet" base_class_type="nodelet::Nodelet">
+        <description>
+            Detector nodelet
+        </description>
+    </class>
+</library>

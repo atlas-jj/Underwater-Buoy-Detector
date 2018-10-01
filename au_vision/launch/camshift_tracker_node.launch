@@ -1,0 +1,8 @@
+<launch>
+    <arg name="camera" default="/front/camera/image_raw"/>
+
+    <node pkg="au_vision" type="tracker_node" name="CamshiftTracker" output="screen">
+        <param name="tracker" value="camshift_tracker"/>
+        <remap from="CamshiftTracker/camera" to="$(arg camera)"/>
+    </node>
+</launch>

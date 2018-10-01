@@ -1,0 +1,10 @@
+<launch>
+    <!-- This detector node is based off the SurfDetector -->
+    <arg name="trainpath" default="" doc="Path to yml surf training data file"/>
+
+    <node pkg="au_vision" type="detector_server" name="SurfDetectorServer" output="screen">
+        <param name="detector" value="surf_detector"/>
+        <param name="train_path" value="$(arg trainpath)"/>
+    </node>
+
+</launch>
