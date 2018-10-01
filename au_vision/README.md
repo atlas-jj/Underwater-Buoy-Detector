@@ -1,4 +1,4 @@
-# au_vision (arc_detector)
+# au_vision (Geometric Shape Detector: arc_detector)
 ## libraries needed
 1. opencv
 2. lapack blas
