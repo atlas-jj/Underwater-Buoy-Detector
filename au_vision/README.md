@@ -3,6 +3,9 @@
 1. opencv
 2. lapack blas
 
+## compile
+This repository depends on other codes (e.g., au_core) written by our ARVP team, University of Alberta. As a result, you can't get it compiled unless you the other code. However, the geometric shape detector itself is self-complete. All the algorithm codes are included.
+
 ## test
 1. remember to source setup.bash
 2. roslaunch au_vision arc_detector.launch
