@@ -56,3 +56,6 @@ Detection result of very far-away buoy.
 
 ![](https://lh4.googleusercontent.com/7PEkOMu2xdxU6jDB2kuKqs7hfkLE6hXHWBCdibKIRzuUjtt5tF2cHiqyUaNXM8PZNo95bIV2SkqMmWqtTHGVvawWV7L8xaEMVe2iyso5x1Kss0_1SFO5FdCPrN-47iWSxK0k7wRJ)
 ![](https://lh5.googleusercontent.com/xULPVT7sO-mXEYAgNPB64D9vQxQ2TBnG1aNpabfhiEFQirZ2I_yM1A8fLfIsFp9VBZONYT5P1DQ-Y84CpA9bYei2PPSUWFfyzU2MjTCcgwGUXcnDz04wIyloq-42lREdfAnFeGrI)
+
+# Reference
+Pătrăucean, Viorica, Pierre Gurdjos, and Rafael Grompone Von Gioi. "A parameterless line segment and elliptical arc detector with enhanced ellipse fitting." Computer Vision–ECCV 2012. Springer Berlin Heidelberg, 2012. 572-585.
